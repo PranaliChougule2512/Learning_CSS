@@ -1,3 +1,4 @@
+/* element type selector */
 h4{
     color: red;
     background-color: chartreuse;
@@ -8,8 +9,73 @@ h4{
             background-color: darkred;
             font-size:40px;
         }
-h5{
+        /* universal type selector */
+*{
     color:#EE0943;
     background-color: rgb(192, 154, 228);
     font-size: 40px;
 }
+/* class selector */
+ .heading1{
+            color: blueviolet;
+            background-color: crimson;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 60px;
+        }
+ .heading2{
+            color: #EE0943;
+            background-color: aqua;
+            font-family: cursive;
+            font-size: 50px;
+ }
+ /* id selector */
+ #heading3{
+    color:blue;
+    font-family: fantasy;
+    font-size: 40px;
+ }
+ #heading4{
+    color: rgb(255, 0, 76);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ /* using id class together */
+ #heading5{
+           color:burlywood;
+           background-color: black;
+ }
+ .heading6{
+    color:hotpink;
+ }
+
+ /* using multiple class in same tag */
+ .h_f_size{
+    font-size: 40px;
+ }
+ .h_color1{
+    color: red;
+ }
+  .h_color2{
+    color: green;
+ }
+  .h_color3{
+    color: yellow;
+ }
+ .h_bgcolor1{
+    background-color: aquamarine;
+ }
+ .h_bgcolor2{
+      background-color: rgb(247, 183, 22);
+ }
+ .h_bgcolor3{
+    background-color: #EE0943;
+ }
+ /* text formatting */
+ .t_transform_uppercase{
+    text-transform: uppercase;
+ }
+ .t_transform_lowercase{
+    text-transform: lowercase;
+ }
+ .t_transform_capitalize{
+    text-transform: capitalize;
+ }
