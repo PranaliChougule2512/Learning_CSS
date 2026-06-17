@@ -111,3 +111,41 @@ h4{
   .line_height{
     line-height: 50px;
   }
+  /* textshadow */
+  .t_shadow{
+   color:#EE0943;
+   font-size: 80px;
+   text-align: center;
+   text-shadow:4px 4px 5px rgb(73, 5, 73);
+  }
+  /* boxshadow */
+  .b_shadow{
+   width:300px;
+   height:300px;
+   box-shadow:5px 5px 5px #0a0a0a;
+  }
+  /* drop shadow */
+  .d_shadow{
+   width: 300px;
+   height: 300px;
+   filter: drop-shadow(5px 5px 5px yellow);
+  }
+  /* border properties */
+  .bor_properties{
+   border: 6px solid blue;
+  }
+   .bor_properties2{
+   border: 6px dotted blue;
+  }
+   .bor_properties3{
+   border: 6px dashed blue;
+  }
+   .bor_properties4{
+   border: 16px inset blue;
+  }
+   .bor_properties5{
+   border: 16px outset blue;
+  }
+   .bor_properties6{
+   border: 16px groove blue;
+  }
