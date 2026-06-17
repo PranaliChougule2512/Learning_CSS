@@ -13,7 +13,7 @@ h4{
 *{
     color:#EE0943;
     background-color: rgb(192, 154, 228);
-    font-size: 40px;
+    
 }
 /* class selector */
  .heading1{
@@ -133,19 +133,39 @@ h4{
   /* border properties */
   .bor_properties{
    border: 6px solid blue;
+   border-radius: 40px;
   }
    .bor_properties2{
-   border: 6px dotted blue;
+   border: 6px dotted rgb(29, 240, 240);
+   border-radius: 40px;
   }
    .bor_properties3{
-   border: 6px dashed blue;
+   border: 6px dashed rgb(219, 40, 8);
+   border-radius: 40px;
   }
    .bor_properties4{
-   border: 16px inset blue;
+   border: 16px inset rgb(131, 6, 54);
+   border-radius: 40px;
   }
    .bor_properties5{
-   border: 16px outset blue;
+   border: 16px outset rgb(2, 68, 46);
+   border-radius: 40px;
   }
    .bor_properties6{
-   border: 16px groove blue;
+   border: 16px groove rgb(30, 73, 1);
+   border-radius: 40px;
+  }
+  /* 4diff colorfor 4sides of border */
+  .bor_properties7{
+   border: 16px groove rgb(30, 73, 1);
+   border-radius: 40px;
+   border-top-color: #EE0943;
+   border-bottom-color: aqua ;
+   border-left-color: darkmagenta;
+   border-right-color: maroon;
+  }
+  .box_model{
+   border:4px solid red;
+   padding:30px;
+   margin: 50px;
   }
