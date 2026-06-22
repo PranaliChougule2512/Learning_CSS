@@ -247,3 +247,40 @@ h4{
    flex-wrap: wrap;
    justify-content: center;
   }
+  /* pseudo_effects */
+  /* all below are pseudo class to define pseudo class single: is used */
+  h1:hover{
+   color:chartreuse;
+   background-color: maroon;
+   font-size: 60px;
+   font-family: cursive;
+  }
+  p:hover{
+   background-color: black;
+   color: white;
+   border: 4px double red;
+   padding: 20px;
+   margin: 30px;
+  }
+  h3:active{
+   color:blue;
+   font-size: 40px;
+   cursor:pointer;
+  }
+  input:focus{
+   background-color: black;
+   color:white;
+   border:10px solid yellow;
+  }
+  a:visited{
+   color:green;
+  }
+  /* all below are pseudo elements to define pseudo elements :: is used */
+  p::first-letter{
+   color:blueviolet;
+   font-size: 30px;
+  }
+  p::first-line{
+   color:black;
+  }
+  
